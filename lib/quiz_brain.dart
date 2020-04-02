@@ -2,7 +2,7 @@ import 'question.dart';
 
 class QuizBrain {
   int _questionNumber = 0;
-
+//_ used to make it private in dart
   List<Question> _questionBank = [
     Question('Some cats are actually allergic to humans', true),
     Question('You can lead a cow down stairs but not up stairs.', false),
