@@ -2,6 +2,8 @@ import 'question.dart';
 
 class QuizBrain {
   int _questionNumber = 0;
+
+  int _sample;//for test
 //_ used to make it private in dart
   List<Question> _questionBank = [
     Question('Some cats are actually allergic to humans', true),
@@ -53,7 +55,6 @@ class QuizBrain {
 
       print('Now returning true');
       return true;
-
     } else {
       return false;
     }
